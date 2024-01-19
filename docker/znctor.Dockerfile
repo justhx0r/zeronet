@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.13.0a3-alpine
 
 RUN apk --update --no-cache --no-progress add git gcc libffi-dev musl-dev make openssl g++ autoconf automake libtool
 RUN apk add tor
