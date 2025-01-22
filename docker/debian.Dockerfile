@@ -1,4 +1,4 @@
-FROM python:3.12-slim-bookworm
+FROM python:3.14.0a1-slim-bookworm
 
 RUN apt-get update
 RUN apt-get -y install git openssl pkg-config libffi-dev python3-pip python3-dev build-essential libtool
